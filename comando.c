@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   comando.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anmedyns <anmedyns@student.42.fr>          +#+  +:+       +#+        */
+/*   By: anmedyns <anmedyns@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:58:35 by anmedyns          #+#    #+#             */
-/*   Updated: 2024/05/01 19:18:41 by anmedyns         ###   ########.fr       */
+/*   Updated: 2024/06/25 19:01:16 by anmedyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	eseguibile(char *argv, char **envp)
 {
 	char	**comando;
-	char	cerca_path;
+	char	*cerca_path;
 	int		i;
 
 	i = 0;

@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anmedyns <anmedyns@student.42.fr>          +#+  +:+       +#+         #
+#    By: anmedyns <anmedyns@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/29 14:09:27 by anmedyns          #+#    #+#              #
-#    Updated: 2024/04/29 15:26:02 by anmedyns         ###   ########.fr        #
+#    Updated: 2024/06/25 19:09:32 by anmedyns         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,5 +38,10 @@ clean:
 fclean: clean
 		$(RM) $(NAME)
 		make fclean -C libft
+
+git:
+	git add .
+	git commit -m "update"
+	git push
 
 re: 	fclean all
